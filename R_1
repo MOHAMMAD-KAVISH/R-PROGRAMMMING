@@ -1,0 +1,200 @@
+"Hello World"
+
+var<-"Hello World"
+print(var)
+a<-"Bismillah"
+print(a)
+b<-"Mohammad Kavish"
+print(b)
+
+
+a<-FALSE
+print(class(a))
+
+a<-1.25
+print(class(a))
+
+d=9+3i
+print(class(d))
+
+d="Hello"
+print(class(d))
+
+d=a
+print(class(d))
+
+a=TRUE
+b=FALSE
+c=12
+d="Mohammad kavish"
+e=12+7i
+f=12.57
+g="TRUE"
+h="A"
+i="46L"
+j=47L
+k=a
+print(class(a))
+print(class(b))
+print(class(c))
+print(class(d))
+print(class(e))
+print(class(f))
+print(class(g))
+print(class(h))
+print(class(i))
+print(class(j))
+print(class(k))
+
+
+var_name2. =1
+print(var_name2.)
+var_name% =2
+print(var_name%)
+2var_name=4
+print(2var_name)
+var@name=5
+print(var@name)
+2var!k
+print(class(2var!k))
+.2var
+print(class(.2var))
+var2name=5
+print(var2name)
+var._name=3
+print(var._name)
+_var2=5
+print(_var2)
+
+var2_=6
+print(var2_)
+
+var5a.7=9
+print(class(var5a.7))
+
+"hello"->var3
+print(var3)
+print(ls())
+rm(var3)
+
+m=12
+n=45.3
+o="Tanya"
+p=5+2i
+q=TRUE
+
+print(ls())
+rm(o)
+
+a=readline("Enter your name: ")
+print(a)
+
+s=as.numeric(readline("Enter first number: "))
+r=as.numeric(readline("Enter second number: "))
+o=as.numeric(readline("Enter third number: "))
+print(s+r+o)
+
+
+a=readline("Enter your name for registration: ")
+print("Your name is : ")
+print(a)
+b=as.numeric(readline("enter your registration number: "))
+print("your registration number is : ")
+print(b)
+
+
+print(s*r*o)
+
+
+s=s+r
+r=s-r
+s=s-r
+print(s)
+print(r)
+
+
+num2=as.numeric(20+3i)
+num2
+num1=as.numeric(10L)
+num1
+num2=as.numeric(TRUE)
+num2
+num2=as.numeric("abc")
+num2
+num2=as.integer(20+5i)
+num2
+num2=as.integer(TRUE)
+num2
+num2=as.integer("abc")
+num2
+num2=as.complex(TRUE)
+num2
+num2=as.complex("abc")
+num2
+num2=as.character(20+5i)
+num2
+num2=as.character(TRUE)
+num2
+num2=as.complex(10L)
+num2=as.character(2)
+num2
+
+num1=as.numeric(readline("Enter first number: "))
+num2=as.numeric(readline("Enter second number: "))
+num1+num2
+num1-num2
+num1*num2
+num1/num2
+num1^num2
+num1%%num2
+num1==num2
+print(num1>num2)
+print(num1<num2)
+print(num1&&num2)
+print(num1||num2)
+print(num1%/%num2)
+print(num1|num2)
+print(!num1)
+print
+c1<-c(2,3,4)
+c2<-c(6,7,8)
+c1+c2
+c1-c2
+c1>c2
+c1==c2
+c1&c2
+!c1
+c2[2]
+c1*c2
+
+
+c1<-1.4:10.6
+c1
+c1<-c(1,2,3,4,5,6,7,8,9,10)
+length(c1)
+c1<-c(1,2,3,4,5,6,7,8,9,10)
+sort(c1)
+
+c1<-seq(from =0,to=50,by=5)
+plot(c1)
+
+plot(1:10,type="l")
+
+
+a=2
+b<-5
+5->b
+b<<-3.5
+c(1,2)->>a
+a=c(10,20,30,40,50)
+b=20
+b%in%a
+{
+n1=as.numeric(readline("Enter 1 number: "))
+n2=as.numeric(readline("Enter 2 number: "))
+n3=as.numeric(readline("Enter 3 number: "))
+n4=as.numeric(readline("Enter 4 number: "))
+n5=as.numeric(readline("Enter 5 number: "))
+
+print("Product of five number is: ")
+print(n1*n2*n3*n4*n5)}
